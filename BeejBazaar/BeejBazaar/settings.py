@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'BeejBazaar.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': env('DATABASE_NAME'),
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
