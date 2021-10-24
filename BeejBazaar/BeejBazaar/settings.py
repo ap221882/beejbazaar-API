@@ -31,7 +31,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECRET_KEY = 'django-insecure-_!38ra3u%x1q0$zbc_l&h6*f47kcra)1r378oanh_1%mw@%5s5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 SECURE_HSTS_SECONDS = 31536000
 
